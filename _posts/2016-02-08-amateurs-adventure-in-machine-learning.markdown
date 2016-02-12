@@ -17,7 +17,9 @@ class node:
         return((1/(1+math.exp(-x*self.weight))))
 {% endhighlight %}
 You might be wondering what a sigmoid function looks like...
-![Sigmoid function]]({{ site.url }}/assets/img.png )
+
+![Sigmoid function]({{ site.url }}/assets/img.png )
+
 So why this function. Well as you probably noticed it's output is limited from
 0 to 1. 
 
